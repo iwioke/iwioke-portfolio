@@ -17,7 +17,6 @@ export function About({copy}: AboutProps) {
             <div><dt>{copy.availabilityLabel}</dt><dd>{copy.availability}</dd></div>
           </dl>
         </Reveal>
-        <p className="about-monogram" aria-hidden="true">MM<br />IW</p>
       </div>
     </section>
   );

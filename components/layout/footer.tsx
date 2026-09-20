@@ -11,7 +11,6 @@ export function Footer({copy}: FooterProps) {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div>
-          <p className="footer-mark">MM / IW</p>
           <p className="footer-tagline">{copy.tagline}</p>
         </div>
         <div className="footer-links" aria-label="Social links">
