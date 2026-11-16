@@ -52,9 +52,7 @@ export const services = [
   {title: "Logo design", description: "A unique logo with matching type and colour, delivered as files ready for digital and print.", price: "$200–400"},
   {title: "Brand identity", description: "Logo, colour system, typography, graphic elements, a basic brand book and applications.", price: "$600–1,200"},
   {title: "Poster design", description: "An original poster, ad banner or editorial layout built on typography and a clear visual idea.", price: "$80–150"},
-  {title: "Website design", description: "UI/UX design in Figma: structure, visual concept, responsive layouts and a developer-ready handoff.", price: "$350–750"},
-  {title: "Website development", description: "A responsive site in HTML, CSS, JavaScript, React or Next.js — design, animation and basic optimisation.", price: "$700–1,500"},
-  {title: "Full website", description: "Design and development in one project: Figma layouts and a responsive build of the finished site.", price: "$1,050–2,250"},
+  {title: "Website design", description: "Design and development in one project: Figma layouts and a responsive build of the finished site.", price: "$1,050–2,250"},
   {title: "Your own idea", description: "Custom work: web apps, process automation, interfaces and other non-standard digital projects.", price: "from $30/hr", custom: true},
 ] as const;
 
