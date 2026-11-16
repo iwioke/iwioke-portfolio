@@ -1,3 +1,5 @@
+> **Superseded (16 Nov 2026):** the English-only "night valley" reconstruction is documented in `docs/night-valley-reconstruction/`. This file describes the previous bilingual release.
+
 # План реализации лендинга
 
 ## Этап 0. Подготовка и контент

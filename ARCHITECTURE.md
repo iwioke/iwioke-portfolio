@@ -1,3 +1,5 @@
+> **Superseded (16 Nov 2026):** the English-only "night valley" reconstruction is documented in `docs/night-valley-reconstruction/`. This file describes the previous bilingual release.
+
 # ARCHITECTURE — Персональное портфолио Maxim Matsulevich / iwioke
 
 - **Статус:** целевая архитектура первого релиза

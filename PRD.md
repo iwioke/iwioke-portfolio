@@ -1,3 +1,5 @@
+> **Superseded (16 Nov 2026):** the English-only "night valley" reconstruction is documented in `docs/night-valley-reconstruction/`. This file describes the previous bilingual release.
+
 # PRD — Персональное портфолио Maxim Matsulevich / iwioke
 
 - **Статус:** согласовано для первого релиза
