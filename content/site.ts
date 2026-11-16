@@ -8,9 +8,9 @@ export const contacts = {
 export const site = {
   name: "Maxim Matsulevich",
   handle: "iwioke",
-  title: "iwioke — Maxim Matsulevich, graphic & web designer",
+  title: "iwioke — Maxim Matsulevich, graphic & web designer, AI developer",
   description:
-    "Portfolio of Maxim Matsulevich (iwioke), a graphic and web designer from Minsk: brand identities, posters and multilingual websites — from idea to code.",
+    "Portfolio of Maxim Matsulevich (iwioke), a graphic & web designer and AI developer from Minsk: brand identities, posters, multilingual websites and AI-powered solutions.",
   nav: [
     {href: "#works", label: "Work"},
     {href: "#prices", label: "Pricing"},
@@ -19,7 +19,7 @@ export const site = {
   navCta: "Message me",
   hero: {
     title: "iwioke",
-    caption: ["Graphic & web designer from Minsk.", "Identities, posters and websites."],
+    caption: ["Graphic & web designer, AI developer.", "Identities, posters, websites and AI."],
     go: "View work",
   },
   works: {
@@ -53,7 +53,7 @@ export const services = [
   {title: "Brand identity", description: "Logo, colour system, typography, graphic elements, a basic brand book and applications.", price: "$600–1,200"},
   {title: "Poster design", description: "An original poster, ad banner or editorial layout built on typography and a clear visual idea.", price: "$80–150"},
   {title: "Website design", description: "Design and development in one project: Figma layouts and a responsive build of the finished site.", price: "$1,050–2,250"},
-  {title: "Your own idea", description: "Custom work: web apps, process automation, interfaces and other non-standard digital projects.", price: "from $30/hr", custom: true},
+  {title: "Your own idea", description: "Custom work: AI solutions, web apps, process automation, interfaces and other digital projects.", price: "from $30/hr", custom: true},
 ] as const;
 
 export const steps = [
@@ -63,7 +63,7 @@ export const steps = [
   {title: "Final files", text: "You receive production-ready files for print, web or development."},
 ] as const;
 
-export const terms = ["based in Minsk, Belarus", "working remotely", "design + development", "telegram or email"] as const;
+export const terms = ["based in Minsk, Belarus", "working remotely", "design + AI development", "telegram or email"] as const;
 
 export const contactLinks = [
   {href: contacts.telegram.href, label: `Message ${contacts.telegram.handle}`},

@@ -13,7 +13,7 @@ const jsonLd = {
   "@type": "Person",
   name: site.name,
   alternateName: site.handle,
-  jobTitle: "Graphic & web designer",
+  jobTitle: "Graphic & web designer, AI developer",
   address: {"@type": "PostalAddress", addressLocality: "Minsk", addressCountry: "BY"},
   email: contacts.email.address,
   ...(siteUrl ? {url: siteUrl} : {}),
