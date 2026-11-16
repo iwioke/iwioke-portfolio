@@ -45,7 +45,7 @@ The current portfolio (bilingual Next.js site, light editorial design) does not 
 | Logo / hero wordmark | `iwioke` (owner decision) |
 | Hero caption | GitHub profile README: graphic & web designer from Minsk; identities, posters, websites, creative development |
 | Works folders | 1) Brand identity → LM Group mockups (`Desktop/works/айдентика`, `Desktop/ЛМ ГРУПП`); 2) Websites → LM Group Europe / Kazakhstan, English-locale screenshots captured from the live sites llclmgroup.com and llclmgroup.store; 3) Posters → `Desktop/works/*` (Cyrillic poster Group 28 excluded) |
-| Pricing table | Services from README / previous capabilities. **No verified prices → "on request"** until the owner supplies numbers |
+| Pricing table | Services and price ranges supplied by the owner (16 Nov 2026), in USD |
 | Process | Generic, non-committal workflow (no unverified terms such as prepayment %, revision counts or turnaround) |
 | Contact | Telegram @iwiokedamn, iwiokework@gmail.com, Instagram @iwiokebaa, GitHub iwioke |
 
@@ -72,11 +72,10 @@ The current portfolio (bilingual Next.js site, light editorial design) does not 
 | Risk | Mitigation |
 | --- | --- |
 | WebGL cost on low-end mobile | Fewer particles on small/coarse-pointer screens, capped pixel ratio, fallback without WebGL |
-| Prices missing | "On request" placeholders are real copy, centralised in `content/site.ts` |
+| Prices change | Prices are centralised in `content/site.ts` |
 | Reduced project variety after excluding Cyrillic imagery | Websites shown via authentic English screenshots of the live sites |
 
 ## 10. Next steps
 
-- Owner supplies prices → update `content/site.ts`.
 - Optional: English build of iwiqoVPN UI to reintroduce its screenshots; English versions of SMM work.
 - Set `NEXT_PUBLIC_SITE_URL` in Vercel for canonical/OG URLs; merge branch to deploy.

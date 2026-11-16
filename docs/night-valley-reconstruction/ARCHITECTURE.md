@@ -48,7 +48,7 @@ public/media/       optimised JPEGs (max 2000 px)
 
 | Question | Why it matters | Status |
 | --- | --- | --- |
-| Final prices and currency? | Pricing column | Owner will send later |
+| Final prices and currency? | Pricing column | Resolved: USD ranges from the owner |
 | Production domain? | Canonical, OG image URLs | Open — set `NEXT_PUBLIC_SITE_URL` |
 | Is an English build of iwiqoVPN available for screenshots? | Reintroducing the app in Works | Open |
 | Should SMM work get English versions? | Adds a 4th folder | Open |

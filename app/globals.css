@@ -181,10 +181,10 @@ h2 b { font-weight: 700; color: #fff; }
 
 /* ---------- Prices ---------- */
 .price-list { list-style: none; border-top: 1px solid var(--line-strong); }
-.price-row { display: grid; grid-template-columns: 1.1fr 1.6fr auto 130px; align-items: center; gap: 24px; padding: 26px 0; border-bottom: 1px solid var(--line); }
+.price-row { display: grid; grid-template-columns: 1.1fr 1.6fr 120px 130px; align-items: center; gap: 24px; padding: 26px 0; border-bottom: 1px solid var(--line); }
 .price-row h3 { font: 700 22px / 1.15 var(--display); letter-spacing: -.03em; text-transform: lowercase; }
 .price-row p { color: var(--muted); font-size: 15px; }
-.price-row .price { font-family: var(--text); font-size: 17px; white-space: nowrap; }
+.price-row .price { font-family: var(--text); font-size: 17px; white-space: nowrap; justify-self: end; }
 .price-row .order { font-family: var(--text); font-size: 14px; justify-self: end; display: inline-flex; align-items: center; min-height: 44px; transition: color .2s; }
 .price-row:hover .order, .price-row .order:focus-visible { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
 
@@ -233,6 +233,7 @@ footer .wrap { display: flex; justify-content: center; gap: 16px; padding-top: 2
   .price-row h3 { font-size: 19px; min-width: 0; }
   .price-row p, .price-row .order { grid-column: 1 / -1; }
   .price-row p { grid-row: auto; }
+  .price-row .price { justify-self: start; }
   .folders { grid-template-columns: 1fr; }
   .folder { grid-template-rows: 210px auto; }
   .f-title { font-size: 22px; overflow-wrap: anywhere; }

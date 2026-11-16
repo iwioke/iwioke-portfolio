@@ -48,14 +48,13 @@ export const site = {
   footer: "iwioke — Maxim Matsulevich",
 } as const;
 
-/** Prices are intentionally "on request" until confirmed by the owner. */
 export const services = [
-  {title: "Logo", description: "A distinctive mark or wordmark that stays readable from a favicon to a billboard.", price: "on request"},
-  {title: "Brand identity", description: "Logo, type and colour, carried through merch, stationery, packaging and signage.", price: "on request"},
-  {title: "Poster", description: "Posters and editorial layouts built around a strong typographic idea.", price: "on request"},
-  {title: "Website design", description: "Landing pages and business websites designed in Figma for real screens.", price: "on request"},
-  {title: "Website development", description: "Responsive, multilingual sites built with HTML, Tailwind CSS, React or Next.js.", price: "on request"},
-  {title: "Your own idea", description: "A macOS app, a motion piece or something not on the list? Describe it and I’ll quote it.", price: "on request", custom: true},
+  {title: "Logo design", description: "A unique logo with matching type and colour, delivered as files ready for digital and print.", price: "$200–400"},
+  {title: "Brand identity", description: "Logo, colour system, typography, graphic elements, a basic brand book and applications.", price: "$600–1,200"},
+  {title: "Poster design", description: "An original poster, ad banner or editorial layout built on typography and a clear visual idea.", price: "$80–150"},
+  {title: "Website design", description: "UI/UX design in Figma: structure, visual concept, responsive layouts and a developer-ready handoff.", price: "$350–750"},
+  {title: "Website development", description: "A responsive site in HTML, CSS, JavaScript, React or Next.js — design, animation and basic optimisation.", price: "$700–1,500"},
+  {title: "Your own idea", description: "Custom work: web apps, process automation, interfaces and other non-standard digital projects.", price: "from $30/hr", custom: true},
 ] as const;
 
 export const steps = [
